@@ -1,0 +1,125 @@
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #242038; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #131023; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+/* ==============Scroll bar=============== */
+
+:root {
+  --primary-bg: #242038;
+  --secondary-bg:  #918F9B;
+  --light-bg: #39364B;
+}
+
+body{
+  background-image: url('/public/body-bg.png');
+  background-attachment: fixed;
+  background-size:cover;
+  width:100%;
+  height:100%;
+}
+
+.main-content-block{
+  width:calc(100% - 100px);
+  margin-left:100px;
+  height:calc(100% - 100px);
+  margin-top:80px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #ff7952!important;
+}
+.CircularProgressbar .CircularProgressbar-text, .css-3dcfwk-MuiBarElement-root, .css-1qdzy9k-MuiBarElement-root{
+  fill: #ff7952!important;
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel{
+  fill: #918F9B!important;
+}
+
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line, .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick{
+  stroke:#918F9B!important;
+}
+
+.dropdown-button, .dropmenu{
+  background:var(--light-bg);
+  font-size:14px;
+  color: #ffff;
+}
+
+.dropmenu{
+  z-index:11;
+}
+
+.dropmenu button{
+  color: #ffff;
+}
+
+.dropmenu button:not(:last-child){
+  border-bottom:1px solid #514c6b;
+}
+.review-cards{
+  display:grid;
+  gap:24px;
+  max-height:450px;
+  height:350px;
+  overflow-y:auto;
+}
+
+.mb-0 {
+  display:none;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-content-block {
+    width: 100%;
+    margin-left: 0;
+    padding:16px;
+    margin-top:80px;
+  }
+
+  .sidebar{
+    transform:translatex(-100%);
+    z-index:111;
+    height:100vh!important;
+  }
+  .sidebar.active{
+    transform:translatex(0%);
+  }
+  .css-ea6efm{
+    position:absolute!important;
+    width:100%!important;
+    background-color: var(--primary-bg);
+    top:50px;
+    left:0px;
+    padding:8px 16px;;
+
+  }
+  .css-ea6efm input{
+    width:100%;
+  }
+  
+  body.no-scroll, html.no-scroll {
+    overflow: hidden;
+  }
+
+  .mb-0 {
+    margin-bottom: 0px!important;
+    display:block;
+  }
+  
+}
