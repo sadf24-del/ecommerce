@@ -1,8 +1,8 @@
 import React from "react";
-import { ChartTitle, TwoGrid } from "../MiddleDataCards";
-import TableLayout from "../../Global Components/Table";
-import Card, { CardBlock } from "../../Global Components/Card";
-import ReviewBlock from "../../Global Components/Review";
+import { ChartTitle, TwoGrid } from "../MiddleDataCards/MiddleDataCards";
+import TableLayout from "../../Global Components/Table/Table";
+import Card, { CardBlock } from "../../Global Components/Card/Card";
+import ReviewBlock from "../../Global Components/Review/Review";
 
 const BottomData = () => {
   const data = [

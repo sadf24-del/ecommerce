@@ -1,5 +1,5 @@
 import React from 'react'
-import Card, { CardBlock } from '../../Global Components/Card';
+import Card, { CardBlock } from '../../Global Components/Card/Card';
 import styled from 'styled-components';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';

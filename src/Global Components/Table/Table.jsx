@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ChartTitle } from "../../Components/MiddleDataCards";
+import { ChartTitle } from "../../Components/MiddleDataCards/MiddleDataCards";
 
 
 const TableLayout = ({ rows = [], tableClass = '', tbodyClass = '', statusColors = {} }) => {

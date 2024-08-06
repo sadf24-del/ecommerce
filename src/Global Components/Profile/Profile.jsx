@@ -1,6 +1,6 @@
 // ProfileDropdown.js
 import React, { useState } from 'react';
-import './index.css'; 
+import './Profile.css'; 
 
 const ProfileDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);

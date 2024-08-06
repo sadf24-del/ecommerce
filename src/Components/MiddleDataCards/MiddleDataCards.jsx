@@ -1,8 +1,8 @@
 import React from 'react'
-import Card, { CardBlock } from '../../Global Components/Card';
+import Card, { CardBlock } from '../../Global Components/Card/Card';
 import styled from 'styled-components';
-import ActivityChart from '../../Global Components/Chart';
-import Dropdown from '../../Global Components/Dropdown';
+import ActivityChart from '../../Global Components/Chart/Chart';
+import Dropdown from '../../Global Components/Dropdown/Dropdown';
 
 const MiddleData = () => {
   return (

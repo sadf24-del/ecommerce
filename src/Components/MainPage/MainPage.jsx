@@ -1,10 +1,10 @@
 import React,  { useState, useEffect }  from 'react'
-import Sidebar from '../Sidebar';
-import Header from '../Header';
-import TopFourCards from '../TopDataCards';
+import Sidebar from '../Sidebar/Sidebar';
+import Header from '../Header/Header';
+import TopFourCards from '../TopDataCards/TopDataCards';
 import { BarChart } from '@mui/x-charts';
-import MiddleData, { ChartTitle } from '../MiddleDataCards';
-import BottomData from '../BottomCards';
+import MiddleData, { ChartTitle } from '../MiddleDataCards/MiddleDataCards';
+import BottomData from '../BottomCards/BottomData';
 import styled from 'styled-components';
 
 const MainContent = () => {

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
-import SearchBar from "../../Global Components/SearchBar";
-import { Logo } from "../Sidebar";
-import ProfileDropdown from "../../Global Components/Profile";
+import SearchBar from "../../Global Components/SearchBar/SearchBar";
+import { Logo } from "../Sidebar/Sidebar";
+import ProfileDropdown from "../../Global Components/Profile/Profile";
 
 const Header = ({ onClick }) => {
 
