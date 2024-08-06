@@ -49,17 +49,11 @@ body{
   margin-top:80px;
 }
 
-.CircularProgressbar .CircularProgressbar-path {
-  stroke: #ff7952!important;
-}
-.CircularProgressbar .CircularProgressbar-text, .css-3dcfwk-MuiBarElement-root, .css-1qdzy9k-MuiBarElement-root{
+.MuiBarElement-root{
   fill: #ff7952!important;
 }
-.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel{
-  fill: #918F9B!important;
-}
 
-.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line, .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick{
+.MuiChartsAxis-tickLabel, .MuiChartsAxis-line, .MuiChartsAxis-tick{
   stroke:#918F9B!important;
 }
 
