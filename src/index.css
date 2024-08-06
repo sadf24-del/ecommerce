@@ -108,7 +108,7 @@ body{
   .sidebar.active{
     transform:translatex(0%);
   }
-  .css-ea6efm{
+  .searchBlock{
     position:absolute!important;
     width:100%!important;
     background-color: var(--primary-bg);
@@ -117,7 +117,7 @@ body{
     padding:8px 16px;;
 
   }
-  .css-ea6efm input{
+  .searchBlock input{
     width:100%;
   }
   
