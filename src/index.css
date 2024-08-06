@@ -49,8 +49,12 @@ body{
   margin-top:80px;
 }
 
-.MuiBarElement-root{
+.MuiBarElement-root, .CircularProgressbar .CircularProgressbar-path, .CircularProgressbar .CircularProgressbar-text{
   fill: #ff7952!important;
+}
+
+.CircularProgressbar .CircularProgressbar-path{
+  stroke: #ff7952!important;
 }
 
 .MuiChartsAxis-tickLabel, .MuiChartsAxis-line, .MuiChartsAxis-tick{
